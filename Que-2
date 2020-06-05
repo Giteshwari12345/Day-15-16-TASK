@@ -1,0 +1,24 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              $("p").mouseenter(function(){
+                $(this).hide();
+              });
+              $("p").mouseleave(function(){
+                $(this).show();
+              });
+              
+            });
+        </script>
+    </head>
+    <body>
+        <p>My name is Giteshwari Wadbudhe.<br>
+		I am from Nagpur.<br>
+		I have completed my degree from Priyadarshini College Of Engineering(Nagpur).<br>
+        I have completed my diploma from Government Polytechnic Sadar(Nagpur).<br>
+		I love paintings.<br></p>
+    </body>
+</html>
